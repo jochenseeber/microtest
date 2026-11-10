@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.2.9-fast.1
+
+- Faster compilation with power asserts: the formatter reads asserted values through fixed types, and named arguments no longer wrap their nodes (#5)
+- Respect `NO_COLOR` (#8)
+
 ### 1.2.9
 
 - Crystal 1.18
